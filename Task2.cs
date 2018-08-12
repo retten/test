@@ -66,7 +66,7 @@ namespace ConsoleApp7
                     sw.Start();
                     //TODO: получать данных из БД
                     var result = new List<Client>();
-                    for (int i = 1; i <= 1000000000; i++)
+                    for (int i = 1; i <= 10000000; i++)
                     {
                         sw.Stop();
                         if (sw.Elapsed - elapsed > new TimeSpan(0,0,3))
